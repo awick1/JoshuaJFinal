@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/weather.js"></script>
+  <script src="js/time.js"></script>
+</head>
+
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div id="Mainbody">
+  <h1 id="title">Browser Homepage</h1>
+	<p id="Header">
+		The time is
+	</p>
+	<p id="Date">
+		Today is
+	</p>
+
+	<div id="googlesearch">
+						<form target="_self" id="google" method="get" action="http://www.google.com/search" target="main" onsubmit="">
+    <input name="q" id="google" placeholder="Google Search" size="30" maxlength="2000" value="" type="text" autofocus></input>
+</form>
+
+	</div>
+	<div id="weather">
+		<div id="weatherHeader">
+			Weather in Hortonville WI - <a href="./weather.html">Weather Maps</a> 
+		</div>
+        <div class="inline" id="weatherdat1"></div>
+      <!--  <div class="inline" id="weatherdat2"></div> -->
+  </div>
+
+  <div id="weatherR">
+		<div id="weatherHeader">
+			Weather Radar
+		</div>
+        <!--Radar-->
+        <img id="RD_OVR" src="https://radar.weather.gov/Overlays/Topo/Short/GRB_Topo_Short.jpg"> <!--Map-->
+        <img id="RD_OVR" src="https://radar.weather.gov/Overlays/County/Short/GRB_County_Short.gif"> <!--Boarders-->
+        <img id="RD_OVR" src="https://radar.weather.gov/Legend/N0R/GRB_N0R_Legend_0.gif"> <!--Legend-->
+        <img id="RD_OVR" src="https://radar.weather.gov/Warnings/Short/GRB_Warnings_0.gif"> <!--Warnings/Warnings Overlay-->
+        <img id="RD_OVR" src="https://radar.weather.gov/RadarImg/N0R/GRB_N0R_0.gif"> <!--Radar-->
+
+        <!--Visible-->
+        <img id="VIS_RD" src="https://aviationweather.gov/adds/data/satellite/latest_MSP_vis.jpg">
+  </div>
+
+	<div id="today">
+		<div id="todayHeader">
+			Today
+		</div>
+    <div id="currentNews">
+      <iframe id="news" width="95%" height="750" class="rssdog" src="http://www.rssdog.com/index.htm?url=http%3A%2F%2Ffeeds.bbci.co.uk%2Fnews%2Frss.xml%3Fedition%3Dus%23&mode=html&showonly=&maxitems=10&showdescs=0&desctrim=0&descmax=0&tabwidth=100%25&excltitle=1&showdate=1&linktarget=_blank&textsize=inherit&bordercol=%23d4d0c8&headbgcol=%23999999&headtxtcol=%23ffffff&titlebgcol=%23f1eded&titletxtcol=%23000000&itembgcol=%23ffffff&itemtxtcol=%23000000&ctl=0"></iframe>
+
+    </div>
+	</div>
+</body>
+</html>

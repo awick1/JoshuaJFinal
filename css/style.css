@@ -1,0 +1,159 @@
+
+i {
+	color: #303030;
+	position: absolute;
+	font-family: weather;
+	font-size: 70pt;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: none;
+	height: 94px;
+	width: 74px;
+	float: left;
+	left: 20px;
+	top: calc(50% - 24px);
+}
+
+
+html {
+	background-color: #303030;
+	padding: 40px;
+}
+
+#Mainbody {
+	height: 1600px;
+	background-color: #e6e6e6;
+	box-shadow: 4px 4px 10px -2px;
+	padding: 1px;
+}
+
+#code {
+	font-family: weather;
+}
+
+p {
+	font-family: Segoe UI;
+	font-weight: lighter;
+	text-align: center;
+}
+#title{
+	font-family: Segoe UI;
+	font-weight: lighter;
+	text-align: center;
+	position: relative;
+}
+#Header {
+	font-size: 50pt;
+}
+
+#Date {
+	position: relative;
+	top: -45px;
+	font-size: 30pt;
+}
+
+#googlesearch {
+	position: relative;
+	font-family: Segoe UI;
+	font-weight: lighter;
+	height: 0px;
+	/*left: calc(50% - 250px);*/
+	text-align: center;
+	width: 100%;
+	font-size: 20pt;
+	padding-bottom: 40px;
+}
+
+#google{
+	font-size: 30px;
+}
+
+#weather {
+	position: relative;
+	text-align: center;
+	top: 30px;
+	height: 110px;
+	font-family: Segoe UI;
+	font-weight: lighter;
+	width: 90%;
+	box-shadow: 2px 2px 7px -2px;
+	font-size: 16pt;
+	background: #999999;
+	margin: auto;
+}
+
+#weatherHeader {
+	font-size: 20pt;
+	padding: 10px;
+	background-color: #4d4d4d;
+}
+
+#weatherText {
+	position: absolute;
+	height: 30px;
+	width: 256px;
+	left: calc(50% - 128px);
+}
+
+#weatherR {
+	position: relative;
+	text-align: center;
+	top: 60px;
+	height: 606px;
+	font-family: Segoe UI;
+	font-weight: lighter;
+	width: 90%;
+	box-shadow: 2px 2px 7px -2px;
+	font-size: 16pt;
+	background: #999999;
+	margin: auto;
+}
+
+#RD_OVR{
+	position: absolute;
+	left: 0%;
+	max-width: 50%
+}
+
+#VIS_RD{
+	position: absolute;
+	max-height: 91%;
+	max-width: 50%;
+	left: 50%;
+}
+
+#today {
+	position: relative;
+	text-align: center;
+	top: 90px;
+	height: 360px;
+	font-family: Segoe UI;
+	font-weight: lighter;
+	width: 90%;
+	box-shadow: 2px 2px 7px -2px;
+	font-size: 16pt;
+	background: #999999;
+	margin: auto;
+}
+
+#todayHeader {
+	font-size: 20pt;
+	padding: 10px;
+	background-color: #4d4d4d;
+}
+
+#currentNews{
+	font-size: 20pt;
+	font-family: Segoe UI;
+}
+
+.inline{
+	display:inline;
+	position: relative;
+	top: 13px;
+	margin: auto;
+}
+
+#news{
+	    border-width: 0px;
+}

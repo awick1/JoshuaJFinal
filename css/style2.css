@@ -1,0 +1,41 @@
+.body{
+background-color: grey;
+font-family: Arial;
+}
+
+#Header{
+  text-align: center;
+}
+
+#body{
+  position: relative;
+  width: auto;
+  height: 550px;
+  background-color: #686868;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/******************************************************************************/
+/*The stuff below is for overlaying images because NWS/NOAA doesn't have a single image radar for some reason*/
+#RD_OVR{
+  position: absolute;
+  width: auto;
+  height: 100%;
+}
+/******************************************************************************/
+#VIS_RD{
+position: relative;
+width: 412.5px;
+height: 275px;
+float: right;
+
+}
+
+#IR_RD{
+position: relative;
+width: 412.5px;
+height: 275px;
+top: 275px;
+float: right;
+left: 412.5px;
+}
